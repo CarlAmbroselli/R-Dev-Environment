@@ -1,0 +1,4 @@
+plots/*
+node_modules/*
+cache/*
+*.pid
