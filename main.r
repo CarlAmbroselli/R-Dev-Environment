@@ -2,7 +2,11 @@
 
 # ---- mainImports ----
 X11 <- F
-setwd("/Users/carlambroselli/Schreibtisch/Studium/Bachelorprojekt/R-Scripts")
+setwd("/home/ubuntu/i2b2/reportScripts/Report")
+
+library(extrafont)
+loadfonts()
+
 options(warn=-1)
 
 source("utils/utils.r")
@@ -29,7 +33,7 @@ source("diagrams/stack/age.r")
 source("diagrams/pichart/sex.r")
 
 # Pyramid
-source("diagrams/pyramid/age.r")
+# source("diagrams/pyramid/age.r")
 
 main <- function(){
 
@@ -78,4 +82,4 @@ sex_pichart()
 mortality_plot(loaded_data)
 
 # ---- mortalityPyramid ----
-age_pyramid()
+# age_pyramid()

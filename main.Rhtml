@@ -5,6 +5,16 @@
   library(knitr)
   opts_chunk$set(fig.width=5, fig.height=5)
   knitr::read_chunk('main.r')
+
+  # local({
+  #   hook_plot = knit_hooks$get('plot')
+  #   knit_hooks$set(plot = function(x, options) {
+  #     x = paste(x, collapse = '.')
+  #     if (!grepl('\\.svg', x)) return(hook_plot(x, options))
+  #     # read the content of the svg image and write it out without <?xml ... ?>
+  #     paste(readLines(x)[-1], collapse = '\n')
+  #   })
+  # })
 end.rcode-->
 
 <!--begin.rcode mainImports, include=FALSE

@@ -9,6 +9,12 @@
 		<resultDescription>Your generated report:</resultDescription>
 		<numberOfPatientSets>1</numberOfPatientSets>
 		<numberOfConcepts>0</numberOfConcepts>
-	</settings>
+        </settings>
+        <customOutputs>
+               <output>
+                        <name>Report</name>
+                        <description></description>
+                </output>
+        </customOutputs>
 </reportconf:Rscriptlet>
 
