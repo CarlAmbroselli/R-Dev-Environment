@@ -28,6 +28,9 @@ source("diagrams/stack/age.r")
 # Pi Charts
 source("diagrams/pichart/sex.r")
 
+# Pyramid
+source("diagrams/pyramid/age.r")
+
 main <- function(){
 
   #pdfName <- "plots.pdf"
@@ -70,3 +73,9 @@ age_histogram()
 
 # ---- sexPichart ----
 sex_pichart()
+
+# ---- mortalityPlot ----
+mortality_plot(loaded_data)
+
+# ---- mortalityPyramid ----
+age_pyramid()
