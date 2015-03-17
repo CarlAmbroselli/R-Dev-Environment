@@ -5,7 +5,7 @@
 		<title>Elsevier Report</title>
 		<description>This is a comprehensive report generated from the given patient set.</description>
 		<passROutput>false</passROutput>
-		<passRErrors>true</passRErrors>
+		<passRErrors>false</passRErrors>
 		<resultDescription>Your generated report:</resultDescription>
 		<numberOfPatientSets>1</numberOfPatientSets>
 		<numberOfConcepts>0</numberOfConcepts>

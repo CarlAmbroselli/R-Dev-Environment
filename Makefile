@@ -9,7 +9,7 @@ all:
 	curl --ipv4 http://localhost:35729/changed?files=main.html
 
 clean:
-	rm *.html
+	rm -rf tmp/*
 
 open:
 	open "main.html"
