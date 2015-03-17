@@ -10,11 +10,20 @@
 		<numberOfPatientSets>1</numberOfPatientSets>
 		<numberOfConcepts>0</numberOfConcepts>
         </settings>
-        <customOutputs>
+        <additionalInputs>
+		<input>
+			<name>Model Patient set</name>
+			<description>Leave empty for all patients</description>
+			<type>hidden</type>
+			<default>Model Patient set</default>
+		</input>
+        </additionalInputs>
+       <customOutputs>
                <output>
                         <name>Report</name>
-                        <description></description>
+                        <description>Desc</description>
                 </output>
         </customOutputs>
+	
 </reportconf:Rscriptlet>
 

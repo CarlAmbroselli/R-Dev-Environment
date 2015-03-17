@@ -19,4 +19,4 @@ knit('../../layout/main.Rhtml', output=fileName)
 
 # Output
 report.output[["Report"]] <- readChar(fileName, file.info(fileName)$size)
-report.output[[1]] <- "Hallo"
+report.output[[1]] <- report.input["Model Patient set"]
