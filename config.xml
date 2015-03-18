@@ -12,16 +12,15 @@
         </settings>
         <additionalInputs>
 		<input>
-			<name>Model Patient set</name>
-			<description>Leave empty for all patients</description>
+			<name>requestDiagram</name>
 			<type>hidden</type>
-			<default>Model Patient set</default>
+			<default>all</default>
 		</input>
         </additionalInputs>
        <customOutputs>
                <output>
                         <name>Report</name>
-                        <description>Desc</description>
+                        <description></description>
                 </output>
         </customOutputs>
 	
